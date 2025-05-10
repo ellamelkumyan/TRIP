@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="header__nav-wrapper">
+		<div class="header__nav">
+		 <a href="" class="header__nav-link link">trip страхование</a>
+		 <a href="" class="header__nav-link link">Продукты</a>
+		 <a href="" class="header__nav-link link">Отзывы</a>
+		 <a href="" class="header__nav-link link">Парнерам</a>
+		<div class="header-nav-link-wrapper"> <a href="" class="header__nav-link_mail link"><div><img src="./assets/mail.svg" alt=""></div> Скидки</a> </div>
+	    </div>
+	</div>
+		<div class="header__filter">
+			<h1 class="header__filter-title">Страхование путешественников</h1>
+			<h2 class="header__filter-subtitle">Полис, который действительно работает</h2>
+			<div class=header__filter-input-container>
+				<select class="header__filter-select">
+					<option value=""></option>
+					<option value="RU">Россия</option>
+					<option value="US">США</option>
+					<option value="DE">Армения</option>
+					<option value="DE">Грузия</option>
+					<option value="DE">Италия</option>
+					<option value="DE">Испания</option>
+					<option value="DE">Канада</option>
+					<option value="DE">Бразилия</option>
+					<option value="DE">Аргентина</option>
+				  </select>
+
+				  <input type="date" class="header__filter-date" placeholder="Дата начала">
+				  <input type="date" class="header__filter-date" placeholder="Дата окончания">
+
+
+                  <div class="tourist-selector-wrapper">
+				  <div class="tourist-selector">
+					<div class="option-group">
+					  <span>Взрослые</span>
+					  <div class="counter">
+						<button class="counter-btn minus" data-type="adults">−</button>
+						<span class="counter-value" data-type="adults">1</span>
+						<button class="counter-btn plus" data-type="adults">+</button>
+					  </div>
+					</div>
+					
+					<div class="option-group">
+					  <span>Дети</span>
+					  <div class="counter">
+						<button class="counter-btn minus" data-type="children">−</button>
+						<span class="counter-value" data-type="children">0</span>
+						<button class="counter-btn plus" data-type="children">+</button>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				
+			</div>
+			<div class="header__filter-button-wrapper">
+				<button class="header__filter-button">Узнать стоимость</button>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="services">
+		<div class="container">
+		<div class="services__wrapper">
+			<div class="services__left">
+				<h2 class="services__title">Покрываем коронавирус</h2>
+				<div class="services__text">Все наши полисы покрывают лечение и диагностику в случае заражения COVID-19, ведь не все страны готовы лечить коронавирус за свой счет. Максимальное покрытие по медицинским расходам составит 100 000 USD/EUR. Также полисом предусмотрена компенсация по риску отмена поездки, если застрахованный заболеет COVID-19.</div>
+			</div>
+			<div class="services__right">
+				<div class="services__img-wrapper">
+				<img class="services__img" src="./assets/corona-img.png" alt="">
+			</div>
+			</div>
+		</div>
+
+		<div class="services__wrapper">
+			<div class="services__left">
+				<div class="services__img-wrapper">
+				<img class="services__img" src="./assets/desease.png" alt="">
+			</div>
+			</div>
+			<div class="services__right">
+				<h2 class="services__title">Помощь при обострении хронических заболеваний</h2>
+				<div class="services__text">Сейчас даже у людей моложе 30 лет есть хронические заболевания, которые время от времени дают о себе знать. Не говоря уже о пожилых людях - для них помощь при обострении хронических заболеваний особенно важна. Поэтому мы предлагаем одно из самых больших покрытий на рынке по купированию обострений хронических заболеваний – 
+					до 3 000 $.</div>
+			</div>
+		</div>
+
+		<div class="services__wrapper">
+			<div class="services__left">
+				<h2 class="services__title">Доктор онлайн 24/7</h2>
+				<div class="services__text">Чтобы не тратить время на дорогу до клиники и ожидание врача, наши клиенты могут бесплатно получить онлайн-консультацию терапевта или педиатра в приложении на смартфоне. Эта опция включена во все страховки независимо от тарифа. Врач отвечает сразу же 24/7 в видео- или онлайн-чате. Нужно лишь установить наше приложение.</div>
+			</div>
+			<div class="services__right">
+				<div class="services__img-wrapper">
+				<img class="services__img" src="./assets/doctor.png" alt="">
+			</div>
+			</div>
+		</div>
+
+		<div class="services__wrapper">
+			<div class="services__left">
+				<div class="services__img-wrapper">
+				<img class="services__img" src="./assets/clinics.png" alt="">
+			</div>
+			</div>
+			<div class="services__right">
+				<h2 class="services__title">Только проверенные клиники</h2>
+				<div class="services__text">Мы контролируем качество работы медицинских учреждений с помощью Ваших рейтингов и отзывов на нашем сайте. Если мы получаем более 2-х негативных отзывов по клинике, то просто перестаем с ней работать. Таким образом, наших клиентов направляют только в проверенные клиники, где быстро оказывают квалифицированную медицинскую помощь.</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="buy">
+		<div class="container">
+		<h2 class="buy__title">Как купить полис?</h2>
+		<div class="buy__wrapper">
+			<div class="buy__img-wrapper">
+				<img class="buy__img" src="./assets/count.png" alt="">
+			</div>
+			<div class="buy__img-wrapper">
+				<img class="buy__img" src="./assets/data.png" alt="">
+			</div>
+			<div class="buy__img-wrapper">
+				<img class="buy__img" src="./assets/pay.png" alt="">
+			</div>
+			<div class="buy__img-wrapper">
+				<img class="buy__img" src="./assets/print.png" alt="">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="countries">
+		<div class="countries__wrapper">
+		<div class="countries__item">Россия</div>	
+		<div class="countries__item">США</div>	
+		<div class="countries__item">Италия</div>
+		<div class="countries__item">Армения</div>	
+		<div class="countries__item">Бразилия</div>	
+		<div class="countries__item">Грузия</div>	
+		<div class="countries__item">Дания</div>		
+		<div class="countries__item">Испания</div>	
+		<div class="countries__item">Канада</div>	
+
+		<div class="countries__item">Россия</div>	
+		<div class="countries__item">США</div>	
+		<div class="countries__item">Италия</div>
+		<div class="countries__item">Армения</div>	
+		<div class="countries__item">Бразилия</div>	
+		<div class="countries__item">Грузия</div>	
+		<div class="countries__item">Дания</div>		
+		<div class="countries__item">Испания</div>	
+		<div class="countries__item">Канада</div>	
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+			<div class="footer__part">
+				<h2 class="footer__title">Информационный центр</h2>
+				<div class="footer__item">О нас</div>
+				<div class="footer__item">Отзывы</div>
+				<div class="footer__item">Партнерам</div>
+			</div>
+
+			<div class="footer__part">
+				<h2 class="footer__title">Продукты</h2>
+				<div class="footer__item">Страховка для Шенгена</div>
+				<div class="footer__item">Страховка для России</div>
+				<div class="footer__item">Страховка в страны</div>
+				<div class="footer__item">Горнолыжная страховка</div>
+				<div class="footer__item">Годовая страховка</div>
+			</div>
+
+			<div class="footer__part">
+				<h2 class="footer__title">Документы</h2>
+				<div class="footer__item">Пользовательское соглашение</div>
+				<div class="footer__item">Политика обработки данных</div>
+				<div class="footer__item">Политика информационной безопасности </div>
+			</div>
+
+			<div class="footer__part">
+				<h2 class="footer__title">Связаться с нами </h2>
+				<div class="footer__logo-wrapper">
+					<div class="footer__logo"><img src="./assets/youtube.svg" alt=""></div>
+					<div class="footer__logo"><img src="./assets/vk.svg" alt=""></div>
+					<div class="footer__logo"><img src="./assets/facebook.svg" alt=""></div>
+					<div class="footer__logo"><img src="./assets/twitter.svg" alt=""></div>
+					<div class="footer__logo"><img src="./assets/tiktok.svg" alt=""></div>
+					<div class="footer__logo"><img src="./assets/inst.svg" alt=""></div>
+					<div class="footer__logo"><img src="./assets/telegram.svg" alt=""></div>
+					<div class="footer__logo"><img src="./assets/whatsap.svg" alt=""></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/i18n/ru.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
