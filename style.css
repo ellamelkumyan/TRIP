@@ -306,6 +306,7 @@ input:focus {
 .footer {
 	display: flex;
 	margin-top: 174px;
+	margin-bottom: 70px;
 }
 
 .footer__part {
